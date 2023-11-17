@@ -1,5 +1,6 @@
 # AirBnB Experiences React Clone App
 
+![airbnbexperiences-example-page](https://github.com/vladimirkratinov/airbnbexperiences-app/assets/78992253/a488563d-d0f1-436c-9db4-5dc32c009146)
 
 ## Available Scripts
 In the project directory
