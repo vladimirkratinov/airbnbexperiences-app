@@ -84,7 +84,7 @@ section {
     margin-top: 10px;
     max-width: 220px;
     font-weight: bold;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 .card--rating {
@@ -93,7 +93,7 @@ section {
     height: 20px;
     max-width: 220px;
     margin-top: 10px;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .card--details {
@@ -111,5 +111,5 @@ section {
     height: 20px;
     max-width: 220px;
     color: gray;
-    background-color: pink;
+    /* background-color: pink; */
 }
