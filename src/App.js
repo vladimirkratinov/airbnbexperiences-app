@@ -13,33 +13,37 @@ function App() {
         <Card
           image="card-1.jpeg"
           title="Portrait Photography in Vancouver"
-          rate="4.88 (50)"
+          rating="4.88"
+          reviewCount={50}
           duration="1 hour"
-          price="95"
+          price={95}
         />
 
         <Card
           image="card-2.jpeg"
           title="Night photography with a pro"
-          rate="5.0 (6)"
+          rating="5.0"
+          reviewCount={6}
           duration="2 hours"
-          price="76"
+          price={76}
         />
 
         <Card
           image="card-3.jpeg"
           title="Craft beer tour & tastings on a street art walk - Vancouver"
-          rate="4.91 (244)"
+          rating="4.91"
+          reviewCount={246}
           duration="3 hours"
-          price="70"
+          price={70}
         />
 
         <Card
           image="card-4.jpeg"
           title="Vancouver R&B Sounds"
-          rate="4.89 (38)"
+          rating="4.89"
+          reviewCount={38}
           duration="2 hours"
-          price="28"
+          price={28}
         />
       </div>
     </div>
