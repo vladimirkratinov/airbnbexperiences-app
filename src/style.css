@@ -64,6 +64,7 @@ section {
 /* --------- card --------*/
 
 .card {
+    width: 220px;
     margin-left: 20px;
     font-size: 12px;
 }
