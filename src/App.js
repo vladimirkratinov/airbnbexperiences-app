@@ -6,16 +6,8 @@ import Card from "./components/Card";
 import data from "./data";
 
 function App() {
-  const cards = data.map(object => {
-    return <Card
-    key={object.id} 
-    image={object.image}
-    title={object.title}
-    rating={object.stats.rating}
-    reviewCount={object.stats.reviewCount}
-    duration={object.duration}
-    price={object.price}
-    />
+  const cards = data.map(item => {
+    return <Card key={item.id} {...item} />
   })
 
   console.log(data)
